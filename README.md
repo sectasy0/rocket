@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     response: RPacket = rocket.execute_command("say hello")
     if response.p_type == RPacketType.SERVER_RESP_SUCCESS:
-    print("SERVER SUCCESS RESPONSE")
+        print("SERVER SUCCESS RESPONSE")
 
     command: str = "give @a potion{Potion:\"minecraft:night_vision\"}"
     response: RPacket = rocket.execute_command(command)
