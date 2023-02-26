@@ -1,0 +1,4 @@
+name: rocket
+version: '${project.version}'
+main: sectasy.rocket.Rocket
+api-version: 1.19
