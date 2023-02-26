@@ -10,6 +10,11 @@ Further implementations of the protocol of various games will be available on ot
 
 > **_NOTE:_**  main branch contains only client implementation written in python, for other implementation see branches.
 
+## Client installation
+```sh
+pip3 install rocket-client
+```
+
 ## What does the Rocket packet look like?
 A Rocket packet has three parts, which are:
 
