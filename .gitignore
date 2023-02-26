@@ -1,0 +1,8 @@
+*.pyc
+__pycache__
+*.egg-info
+*.egg
+.pytest_cache
+dist/
+build/
+.fleet
