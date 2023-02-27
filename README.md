@@ -6,7 +6,7 @@ Rocket protocol works on the same principle as RCON, that is, it allows remote e
 
 ## Supported games servers
 Further implementations of the protocol of various games will be available on other branches, such as implementation/minecraft
-- Implementation for minecraft servers on branch `server/minecraft`
+- Implementation for minecraft servers on branch [`server/minecraft`](https://github.com/sectasy0/rocket/tree/server/minecraft)
 
 > **_NOTE:_**  main branch contains only client implementation written in python, for other implementation see branches.
 
