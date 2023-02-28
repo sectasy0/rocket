@@ -38,7 +38,7 @@ class RPacketType:
 Below is a simple example of how to send commands to the server.
 ```py
 from rocket import Rocket
-from rocket.packet import RPacketType
+from rocket.packet import RPacketType, RPacket
 
 if __name__ == "__main__":
     rocket: Rocket = Rocket('localhost', 5543, "rUc_HJItDCwdkZ0esm8uKUh4yIc8GsYSTNFQleUcmI0=")
