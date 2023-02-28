@@ -6,9 +6,14 @@ Rocket protocol works on the same principle as RCON, that is, it allows remote e
 
 ## Supported games servers
 Further implementations of the protocol of various games will be available on other branches, such as implementation/minecraft
-- Soon implementation of the Minecraft game will be available
+- Implementation for minecraft servers on branch [`server/minecraft`](https://github.com/sectasy0/rocket/tree/server/minecraft)
 
 > **_NOTE:_**  main branch contains only client implementation written in python, for other implementation see branches.
+
+## Client installation
+```sh
+pip3 install rocket-client
+```
 
 ## What does the Rocket packet look like?
 A Rocket packet has three parts, which are:
@@ -45,7 +50,7 @@ if __name__ == "__main__":
 
     response: RPacket = rocket.execute_command("say hello")
     if response.p_type == RPacketType.SERVER_RESP_SUCCESS:
-    print("SERVER SUCCESS RESPONSE")
+        print("SERVER SUCCESS RESPONSE")
 
     command: str = "give @a potion{Potion:\"minecraft:night_vision\"}"
     response: RPacket = rocket.execute_command(command)
